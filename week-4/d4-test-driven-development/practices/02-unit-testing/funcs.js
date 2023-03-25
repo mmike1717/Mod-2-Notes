@@ -8,6 +8,11 @@ function isOdd(number) {
 
 function myRange(min, max, step = 1) {
   // Your code here
+  let arr = []
+  for (let i = min; i <= max; i += step){
+    arr.push(i)
+  }
+  return arr
 }
 
 
