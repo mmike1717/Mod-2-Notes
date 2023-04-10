@@ -1,10 +1,26 @@
 
-const helloMessage = require('./hello-message')
+const helloMessage = require("./hello-message");
 
-function sayMessage(message) {
+function sayMessage(message){
   console.log(`"${message}"`)
 }
 
-sayMessage(helloMessage);
+
+sayMessage(helloMessage)
+
 
 module.exports = sayMessage;
+
+
+
+
+
+// const helloMessage = require('./hello-message')
+
+// function sayMessage(message) {
+//   console.log(`"${message}"`)
+// }
+
+// sayMessage(helloMessage);
+
+// module.exports = sayMessage;

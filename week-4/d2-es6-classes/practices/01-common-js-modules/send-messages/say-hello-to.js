@@ -1,10 +1,22 @@
 
-const sayMessage = require('../messages/say-messages.js')
+const sayMessage = require("../messages/say-message");
 
-function sayHelloTo(name) {
-  sayMessage(`Hello ${name}!`)
+function sayHelloTo(name){
+  sayMessage(`Hello ${name}!`);
 }
 
-sayHelloTo("Woody");
+sayHelloTo("woody")
 
-module.exports = sayHelloTo
+
+module.exports = sayHelloTo;
+
+
+// const sayMessage = require('../messages/say-messages.js')
+
+// function sayHelloTo(name) {
+//   sayMessage(`Hello ${name}!`)
+// }
+
+// sayHelloTo("Woody");
+
+// module.exports = sayHelloTo

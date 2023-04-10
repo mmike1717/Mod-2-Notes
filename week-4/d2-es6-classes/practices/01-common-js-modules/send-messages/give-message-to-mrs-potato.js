@@ -1,10 +1,21 @@
-const sayHelloTo = require('./hello-message-to.js')
+const sayHelloTo = require("./say-hello-to");
 
-function giveMessageToMrsPotato(message) {
+function messages(message){
   sayHelloTo("Mrs. Potato");
   console.log(`(Psst... ${message})`)
 }
 
-giveMessageToMrsPotato("Hi Buzz");
+messages("Hi Buzz")
 
-module.exports = giveMessageToMrsPotato;
+module.exports = messages;
+
+// const sayHelloTo = require('./say-hello-to')
+
+// function giveMessageToMrsPotato(message) {
+//   sayHelloTo("Mrs. Potato");
+//   console.log(`(Psst... ${message})`)
+// }
+
+// giveMessageToMrsPotato("Hi Buzz");
+
+// module.exports = giveMessageToMrsPotato;
